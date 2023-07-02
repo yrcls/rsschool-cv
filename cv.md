@@ -34,3 +34,21 @@ I was lucky to find early what I love to do. Since I was 10 years old, I never s
 
 ---
 ### Code example:
+```javascript
+  "use strict";
+  const tCelsius = +prompt('Введите температуру в градусах Цельсия');
+  const tFahrenheit = (9 / 5) * tCelsius + 32;
+  alert(`Цельсий: ${tCelsius}, Фаренгейт: ${tFahrenheit.toFixed(1)}`);
+```
+
+___
+### Courses:
+
+* Geekbrains "Frontend developer" - in progress...
+* JavaScript learnjavascript.ru - in progress...
+* RS Schools Course «JS/FE Pre-School 2023Q2» - in progress...
+
+___
+### Languages:
+* English - A1 (Elementary);
+* Russian - Native;
