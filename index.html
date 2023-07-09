@@ -1,15 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>RS Scool Education</title>
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Yury Rymko - Junior Front-end developer</title>
 </head>
+
 <body>
-        <h1>Hello! This is Header H1 </h1>
-        <p>This is paragraph.</p>
-        <i>Italic style</i>
+    <div class="wrapper">
+        <!-- HEADER -->
+        <header class="header">
+            <div class="header__content">
+                <div class="header__col-1">
+                    <div class="logo">YR</div>
+                </div>
+                <div class="header__col-2">
+                    <ul class="menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#skills">My Skills</a></li>
+                        <li><a href="#edu">Courses</a></li>
+                        <li><a href="#lang">Languages</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section id="about" class="about-me container">
+                <div class="about-me__img-container">
+                    <img src="images/photo.png" alt="Yury">
+                </div>
+                <h2 class="about-me_text">Hello! I`m Yury.</h2>
+                <h2 class="about-me_job-title">Front-End Junior Developer</h2>
+                <div class="about-me_description">
+                    <p>
+                        I was lucky to find early what I love to do. Since I was 10 years old, I never said goodbye to
+                        the computer.
+                        He started his career in IT with a job in a service center. There he acquired the skills of
+                        working with clients,
+                        organizations, got acquainted with computer hardware. Later he entered the Brest State Technical
+                        University (BSTU).
+                        After graduating with a degree in Automated Information Processing Systems. After working for a
+                        few more years in the
+                        service center, I moved to a confectionery factory where I work as a System Administrator.
+                        Developing skills, I became
+                        interested in building websites. So I began to get acquainted with the world of Frontend. I keep
+                        learning and learning
+                        new things.
+                    </p>
+                </div>
+            </section>
+            <section class="my-skills">
+                <h2 class="my-skills_title">My skills:</h2>
+                <div class="my-skills__hard">
+                    <p id="skills">Hard skills:</p>
+                    <ul class="my-skills__hard__list">
+                        <li class="skills_items">HTML / CSS (SASS)</li>
+                        <li class="skills_items">JS (Basic)</li>
+                        <li class="skills_items">Python (Basic)</li>
+                        <li class="skills_items">Adobe Photoshop</li>
+                        <li class="skills_items">Figma (Basics)</li>
+                        <li class="skills_items">VMWare ESXi / Workstation</li>
+                        <li class="skills_items">Veeam Backup & Replication</li>
+                    </ul>
+                </div>
+                <div class="my-skills__soft">
+                    <p>Soft skills:</p>
+                    <ul class="my-skills__soft__list">
+                        <li class="skills_items">Empathy</li>
+                        <li class="skills_items">Team Player</li>
+                        <li class="skills_items">Ability to think outside the box</li>
+                        <li class="skills_items">Ability to work with information</li>
+                        <li class="skills_items">Stress resistance</li>
+                        <li class="skills_items">Curiosity (Hi Mars:)</li>
+                    </ul>
+                </div>
+                <div class="my-skills__code">
+                    <p>
+                        Code example:
+                    <p><code>
+                            "use strict";
+                            const tCelsius = +prompt('Введите температуру в градусах Цельсия');
+                            const tFahrenheit = (9 / 5) * tCelsius + 32;
+                            alert(`Цельсий: ${tCelsius}, Фаренгейт: ${tFahrenheit.toFixed(1)}`);
+                        </code>
+                    </p>
+                </div>
+            </section>
+            <section id="edu" class="courses">
+                <h2>Courses:</h2>
+                <ul class="courses_list">
+                    <li class="skills_items">Geekbrains “Frontend developer” - in progress…</li>
+                    <li class="skills_items">JavaScript learnjavascript.ru - in progress…</li>
+                    <li class="skills_items">RS Schools Course «JS/FE Pre-School 2023Q2» - in progress…</li>
+                </ul>
+            </section>
+            <section id="lang" class="languages">
+                <h2>Languages:</h2>
+                <ul class="languages_list">
+                    <li class="languages_list__items">Russian - Native</li>
+                    <li class="languages_list__items">English - A1 (Elementary)</li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <div class="footer_copyright">
+                <p>© 2023 by Yury Rymko</p>
+            </div>
+            <ul class="footer_links">
+                <li class="footer_links__item">
+                    <a href="https://rs.school/js/">
+                        <img src="https://rs.school/images/rs_school_js.svg" alt="">
+                    </a>
+                </li>
+                <li class="footer_links__item">
+                    <a href="https://github.com/yrcls">GitHub</a>
+                </li>
+            </ul>
+
+        </footer>
+    </div>
+
 </body>
+
 </html>
